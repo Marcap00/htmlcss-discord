@@ -1,0 +1,76 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utils */
+
+.container {
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.container > * {
+    flex-basis: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Generics */
+
+body {
+    font-family: 'Roboto';
+}
+
+/* Header */
+
+
+header {
+    background-color: #3161e0;
+}
+
+.logo {
+    width: auto;
+    height: 100%;
+    padding: 15px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    
+}
+
+.link a {
+    color: white;
+}
+
+.btn-login {
+    text-align: right;
+}
+
+.login {
+    text-align: right;
+    color: black;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
