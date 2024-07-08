@@ -6,16 +6,18 @@
 }
 
 /* Utils */
-
 .container {
     max-width: 1200px;
-    height: 60px;
     margin: 0 auto;
+}
+
+.container.header {
     display: flex;
+    height: 60px;
     align-items: center;
 }
 
-.container > * {
+.container.header > * {
     flex-basis: 25%;
 }
 
@@ -30,6 +32,38 @@ a {
     border-radius: 25px;
     padding: 10px 15px;
     
+}
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-grey {
+    background-color: lightgray;
+}
+
+.bg-lightblue {
+    background-color: #8a9cda;
+}
+
+.flex {
+    display: flex;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.dir-column {
+    flex-direction: column;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+    padding: 50px;
 }
 
 /* Generics */
@@ -117,6 +151,50 @@ nav ul {
 .fa-solid.fa-down-long {
     padding: 10px;
     vertical-align: middle;
+}
+ /* Main */
+
+main section {
+    padding: 60px 0;
+}
+
+section div {
+    min-height: 500px;
+}
+
+
+h2{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    
+}
+.col-40 p {
+    height: 100px;
+    line-height: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container > p {
+    padding: 0 100px;
+}
+
+#big-image {
+    display: block;
+    margin: 0 auto;
+}
+
+a.btn-rounded.bg-lightblue {
+    background-color: #8a9cda;
+    border: 1px solid #8a9cda;
+    margin: 10px 0;
+}
+
+.container.flex.dir-column {
+    justify-content: center;
 }
 
 
